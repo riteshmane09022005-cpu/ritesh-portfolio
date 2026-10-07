@@ -39,12 +39,14 @@ function Hero() {
               View My Work <span>→</span>
             </a>
 
+            {/* Open Resume directly */}
             <a
               href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn btn-secondary"
-              download
             >
-              Download Resume <span>↓</span>
+              View Resume <span>↗</span>
             </a>
 
           </div>
@@ -55,7 +57,7 @@ function Hero() {
             <a
               href="https://github.com/riteshmane09022005-cpu"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               GitHub ↗
             </a>
@@ -63,7 +65,7 @@ function Hero() {
             <a
               href="https://www.linkedin.com/in/ritesh-mane-b48517346"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               LinkedIn ↗
             </a>
